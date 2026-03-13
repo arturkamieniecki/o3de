@@ -17,12 +17,13 @@ import os
 import subprocess
 from pathlib import Path
 import logging as _logging
-#PySide2 imports
-from PySide2 import QtWidgets
-from PySide2.QtWidgets import QMenuBar, QMenu, QAction
-from PySide2 import QtGui
-from PySide2.QtCore import Slot, QObject, QUrl
-from shiboken2 import wrapInstance, getCppPointer
+#PySide imports
+from PySide6 import QtWidgets
+from PySide6.QtWidgets import QMenuBar, QMenu
+from PySide6.QtGui import QAction
+from PySide6 import QtGui
+from PySide6.QtCore import Slot, QObject, QUrl
+from shiboken6 import wrapInstance, getCppPointer
 # -------------------------------------------------------------------------
 
 

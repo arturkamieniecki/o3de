@@ -22,13 +22,13 @@ from azpy.shared.ui.base_widget import BaseQwidgetAzpy
 
 # 3rd Party
 from unipath import Path
-import PySide2.QtCore as QtCore
-import PySide2.QtWidgets as QtWidgets
+import PySide6.QtCore as QtCore
+import PySide6.QtWidgets as QtWidgets
 
-from PySide2.QtCore import QProcess, Signal, Slot, QTextCodec
-from PySide2.QtGui import QTextCursor
-from PySide2.QtWidgets import QPlainTextEdit
-from PySide2.QtCore import QTimer
+from PySide6.QtCore import QProcess, Signal, Slot, QTextCodec
+from PySide6.QtGui import QTextCursor
+from PySide6.QtWidgets import QPlainTextEdit
+from PySide6.QtCore import QTimer
 
 # -------------------------------------------------------------------------
 #  global space debug flag
