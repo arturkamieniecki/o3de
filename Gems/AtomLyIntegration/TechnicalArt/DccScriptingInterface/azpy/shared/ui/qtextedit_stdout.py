@@ -41,7 +41,7 @@ _MODULE_PATH = Path(__file__)
 
 _ORG_TAG = 'Amazon_Lumberyard'
 _APP_TAG = 'DCCsi'
-_TOOL_TAG = 'azpy.shared.ui.pyside2_qtextedit_stdout'
+_TOOL_TAG = 'azpy.shared.ui.pyside_qtextedit_stdout'
 _TYPE_TAG = 'test'
 
 _MODULENAME = __name__
@@ -127,7 +127,7 @@ if __name__ == '__main__':
 
     _ORG_TAG = 'Amazon_Lumberyard'
     _APP_TAG = 'DCCsi'
-    _TOOL_TAG = 'azpy.shared.ui.pyside2_qtextedit_stdout'
+    _TOOL_TAG = 'azpy.shared.ui.pyside_qtextedit_stdout'
     _TYPE_TAG = 'test'
 
     if _DCCSI_GDEBUG:

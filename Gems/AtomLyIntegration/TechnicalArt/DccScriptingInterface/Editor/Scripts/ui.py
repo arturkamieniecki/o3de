@@ -39,7 +39,7 @@ from DccScriptingInterface.globals import *
 
 import DccScriptingInterface.config as dccsi_core_config
 _settings_core = dccsi_core_config.get_config_settings(enable_o3de_python=True,
-                                                       enable_o3de_pyside2=False,
+                                                       enable_o3de_pyside=False,
                                                        set_env=True)
 
 import DccScriptingInterface.azpy.shared.ui.samples
