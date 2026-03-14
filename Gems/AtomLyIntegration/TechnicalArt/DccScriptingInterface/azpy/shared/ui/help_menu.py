@@ -154,10 +154,10 @@ class TestMainWindow(QtWidgets.QMainWindow):
         self.setup_ui()
 
     def setup_ui(self):
-        self.setWindowTitle('PySide2-HelpMenu-Test')
+        self.setWindowTitle('PySide-HelpMenu-Test')
 
         # Setup Help Menu
-        self.help_menu = HelpMenu(self, 'PySide2-Test Help...', 'http://dccSI.com/NewTool')
+        self.help_menu = HelpMenu(self, 'PySide-Test Help...', 'http://dccSI.com/NewTool')
 
         # main widget
         self.main_widget = QtWidgets.QWidget(self)

@@ -151,7 +151,7 @@ if __name__ == '__main__':
 
     # start something and log (including to console)
     #  this starts a test app
-    _TEST_PY_FILE = Path(_MODULE_PATH.parent, 'pyside2_ui_utils.py')
+    _TEST_PY_FILE = Path(_MODULE_PATH.parent, 'puic_utils.py')
     _READER.start('python', ['-u', _TEST_PY_FILE])  # start the process
 
     # after that starts, this will show the console
